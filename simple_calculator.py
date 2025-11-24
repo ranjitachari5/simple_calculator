@@ -52,7 +52,9 @@ for i in calculator_symbols:
     column+=1    
     gridLayout.addWidget(button,row,column)
     gridLayout.setSpacing(0)
-    MainLayout.addLayout(gridLayout)
+    
+
+MainLayout.addLayout(gridLayout)
 
 window.setStyleSheet("Qwidget{background-color: #fffffc;}QPushButton{background-color: #4a4e69;}QLineEdit{color: black;font-size: 24px;}")
 window.setLayout(MainLayout)
